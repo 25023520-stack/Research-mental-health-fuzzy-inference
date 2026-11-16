@@ -1,0 +1,22 @@
+|--- schizophrenia <= 0.2545
+|   |--- anxiety <= 3.0613
+|   |   |--- schizophrenia <= 0.2071
+|   |   |   |--- class: 2
+|   |   |--- schizophrenia >  0.2071
+|   |   |   |--- class: 1
+|   |--- anxiety >  3.0613
+|   |   |--- eating <= 0.0992
+|   |   |   |--- class: 2
+|   |   |--- eating >  0.0992
+|   |   |   |--- class: 2
+|--- schizophrenia >  0.2545
+|   |--- bipolar <= 0.3372
+|   |   |--- eating <= 0.1756
+|   |   |   |--- class: 0
+|   |   |--- eating >  0.1756
+|   |   |   |--- class: 1
+|   |--- bipolar >  0.3372
+|   |   |--- anxiety <= 3.7334
+|   |   |   |--- class: 0
+|   |   |--- anxiety >  3.7334
+|   |   |   |--- class: 1
